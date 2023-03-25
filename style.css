@@ -234,12 +234,6 @@ img.small{
 	text-align: center;
 	margin: 10px;
 }	
-.content2 img{
-	width: 400px;
-	height: 400px;
-	object-fit: cover;
-	float: right;
-}
 
 .contact{
 	background-color: #2F5241;
