@@ -131,12 +131,31 @@ ul li a{
 	float: left;
 }
 
-h2, h3, h4, h5{	
+h2{	
 	font-family: 'Open Sans', sans-serif;
         font-size: 200%;
         font-weight: 500;
 		text-align: left;
 }
+h3{	
+	font-family: 'Open Sans', sans-serif;
+        font-size: 200%;
+        font-weight: 500;
+		text-align: left;
+}
+h4{	
+	font-family: 'Open Sans', sans-serif;
+        font-size: 200%;
+        font-weight: 500;
+		text-align: left;
+}
+h5{	
+	font-family: 'Open Sans', sans-serif;
+        font-size: 200%;
+        font-weight: 500;
+		text-align: left;
+}
+
 p{
 	font-family: 'Open Sans', sans-serif;
         font-size: 100%;
