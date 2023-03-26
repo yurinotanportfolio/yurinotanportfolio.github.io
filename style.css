@@ -395,6 +395,7 @@ div.contactpage{
 	
 }
 
+
 @media screen and (max-width: 1250px) { 
 	.imgRow img{
 		width: 70%;
@@ -406,5 +407,17 @@ div.contactpage{
 
 	img.large {
 		width: 400px;
+	}
+
+	.LImgCap, .RImgCap {
+		font-size: 125%;
+	}
+
+	.LImgCap {
+		margin-right: 10%;
+	}
+
+	.RImgCap {
+		margin-left: 10%;
 	}
 }
