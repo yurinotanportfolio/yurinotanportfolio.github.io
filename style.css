@@ -99,6 +99,10 @@ h1 {
 		
 }
 
+header a {
+	color: white;
+}
+
 nav{
 	width: auto;
 	float: right;
