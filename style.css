@@ -160,6 +160,7 @@ h4{
         font-size: 200%;
         font-weight: 500;
 		text-align: left;
+		padding-bottom: 20px;
 }
 h5{	
 	font-family: 'Open Sans', sans-serif;
@@ -210,7 +211,7 @@ img.small{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	text-decoration: none;
-
+	
 	float: center;
 	line-height: 50px;
 	
@@ -227,7 +228,7 @@ img.small{
 
 .container{  
 	text-align: center;  
-	margin: 10px;
+	margin: 20px;
 }  
 
 .container img {
@@ -258,6 +259,7 @@ img.small{
 .Hello p{ 
 	font-size: 20pt;
 	margin: 30px 0px; 
+	line-height: 1.1;
 }
 
 .Hello img{
@@ -287,10 +289,6 @@ img.small{
 	padding-top: 60px;
 	text-align: center;
 }
-.gallery p{ 
-	text-align: center;
-	margin: 10px;
-}	
 
 .contact{
 	background-color: #2F5241;
@@ -303,10 +301,6 @@ img.small{
 .contact h5{
 	padding-top: 60px;
 	text-align: center;
-}
-.contact p{ 
-	text-align: center;
-	margin: 10px;
 }	
 
 .contact a {
@@ -408,6 +402,8 @@ img.small{
 .aboutpage .rightCol {
 	margin-left:  10%;
 }
+
+
 
 /* Home Page */
 @media screen and (max-width: 1100px) { 
