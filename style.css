@@ -368,6 +368,23 @@ img.small{
 	padding: 20px 0px;
 }
 
+.video {
+	display: flex;
+	overflow: auto;
+	margin:0px auto;
+	text-align: left;
+	padding: 100px 45px;
+}
+.LVideoCap {
+	margin-top: 30px;
+	margin-left: 20px;
+
+}
+.GraphicCap {
+	width: 30%;
+	padding-top: 50px;
+	padding-left: 100px;
+}
 /*-----------ABOUT PAGE RULES---------*/
 
 .aboutpage{
@@ -444,6 +461,9 @@ img.small{
 	img.large {
 		width: 400px;
 	}
+	img.medium  {
+		width: 200px;
+	}
 
 	.LImgCap, .RImgCap {
 		font-size: 125%;
@@ -457,3 +477,6 @@ img.small{
 		margin-left: 10%;
 	}
 }
+	.LVideoCap, .GraphicCap {
+		font-size: 125%;
+	}
