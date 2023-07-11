@@ -66,17 +66,14 @@ ol{list-style: lower-roman;}
 /*-----------UNIVERSAL HOMEPAGE&RULES---------*/
 
 body{
-    background-color: #F1F1F1;
- 
+    background-color: #ffffff;
     }
 
-
 header {
-	background-color: #100F0F;
+	background-color: #ffffff;
 	width: 100%;
 	height: 100px;
-	color: white;
-	
+	color: #404040;
 	overflow: auto;
 	display: inline-block;
 }
@@ -130,8 +127,8 @@ ul li a{
 }
 .footerContent{
 	font-family: 'Open Sans', sans-serif;
-	background-color: #100F0F;
-	color: white;
+	background-color: #ffffff;
+	color: #404040;
 	width: 100%;
 	height: 100px;
 	display: inline-block;
@@ -236,7 +233,7 @@ img.small{
 }
 
 .Hello{
-	background-color: #F1F1F1;
+	background-color: #ffffff;
 	height: 670px;
 	width: auto;
 	display: flex;
@@ -278,7 +275,7 @@ img.small{
 }
 
 .gallery{
-	background-color: #2F5241;
+	background-color: #404040;
 	color: white;
 	height: 250px;
  	width: 100%;
@@ -291,7 +288,7 @@ img.small{
 }
 
 .contact{
-	background-color: #2F5241;
+	background-color: #e6e6e6;
 	color: white;
 	height: 250px;
 	width: 100%;
@@ -343,12 +340,12 @@ img.small{
 }
 
 .whitebg {
-	background-color: #F1F1F1;
+	background-color: #ffffff;
 }
 
 .blackbg {
-	background-color: #100F0F;
-	color: white;
+	background-color: #e6e6e6;
+	color: #404040;
 }
 
 .RImgCap {
@@ -388,8 +385,8 @@ img.small{
 /*-----------ABOUT PAGE RULES---------*/
 
 .aboutpage{
-	background-color: #F1F1F1;
-	color: black;
+	background-color: #ffffff;
+	color: #404040;
 	width: auto;
 	height: 400px;
 	align-self: center;
