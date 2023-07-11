@@ -69,62 +69,46 @@ body{
     background-color: #ffffff;
     }
 
-header {
+header{
 	background-color: #ffffff;
 	width: 100%;
 	height: 100px;
-	color: #404040;
 	overflow: auto;
 	display: inline-block;
 }
-
-.pageHeader {
-	padding: 15px 40px;
-}
-
-
-h1 { 
-		font-family: 'Open Sans', sans-serif;
-        font-size: 200%;
-        font-weight: 600;
-		text-transform: uppercase;
-		float: left; 
-		width:50%;/*define width and float of side by side sections to make them sit side by side*/
-		
-		padding-left:30px;
-		padding-top: 35px; 
-		
-}
-
-header a {
-	color: white;
-}
-
 nav{
 	width: auto;
 	float: right;
 	padding-right:25px;
 	padding-top: 40px;
-	
 }
 
-ul{
+ul li{
+	display: inline-block;/*use this rule to make the li sit side by side  */
+	padding-right: 25px; 
+}
+
+ul li a{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size:100%;
-	
-	}
-ul li{
-	
-	display: inline-block;/*use this rule to make the li sit side by side  */
-	padding-right: 25px; 
-	
-}
-ul li a{
-	color: white;
+	color: #404040;
 	text-transform: uppercase;
 	text-decoration: none;
 }
+
+h1 { 
+	color: #404040;	
+	font-family: 'Open Sans', sans-serif;
+    font-size: 200%;
+    font-weight: 600;
+	text-transform: uppercase;
+	float: left; 
+	width:50%;/*define width and float of side by side sections to make them sit side by side*/
+	padding-left:30px;
+	padding-top: 35px; 	
+}
+
 .footerContent{
 	font-family: 'Open Sans', sans-serif;
 	background-color: #ffffff;
@@ -277,7 +261,7 @@ img.small{
 .gallery{
 	background-color: #404040;
 	color: white;
-	height: 250px;
+	height: 483px;
  	width: 100%;
 	text-align: center;
 	
@@ -292,7 +276,6 @@ img.small{
 	color: white;
 	height: 250px;
 	width: 100%;
-	margin-top: 10px;
 }		
 
 .contact h5{
@@ -326,6 +309,10 @@ img.small{
 
 /*-----------GALLERY PAGE RULES---------*/
 
+.pageHeader {
+	padding: 15px 40px;
+	text-align: center;
+}
 
 .row {
 	display: flex;
