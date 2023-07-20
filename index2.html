@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="style2.css" type="text/css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#home" class="nav_logo">Yurino Tan Portfolio</a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list grid">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">
+                                <i class="uil uil-home nav_icon"></i> HOME
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="about.html" class="nav_link">
+                                <i class="uil uil-user nav_icon"></i> ABOUT
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#works" class="nav_link">
+                                <i class="uil uil-scenery nav_icon"></i> WORKS
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_link">
+                                <i class="uil uil-message nav_icon"></i> CONTACT
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav_close" id="nav-close"></i>    
+                </div>
+
+                <div class="nav_btns">
+                    <div class="nav_toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_content grid">
+                        
+                        <div class="home_img">
+                            <img src="images/myprofile.png"
+                                class="photoofme"
+                                alt="Phote of Me"
+                                title="A picture of me"
+                            />
+                        </div>
+
+                        <div class="home_data">
+                            <h1 class="home_title">Hello, I'm Yurino</h1>
+                            <h3 class="home_subtitle">Web Design<br/>
+                                Photography<br/>
+                                Video Editing<br/></h3>
+                            <p class="home_description">Creativity x Marketing</p>
+                            <a href="about.html" class="button button--flex">ABOUT ME</a> 
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="works">
+                <h2 class="section_title">Works</h2>
+                <span class="section_subtitle">projects that I worked in college</span>
+                
+                <div class="services_container container grid">
+                    <!--==================== SERVICES 1 ====================-->
+                    <div class="services_content">
+                        <div>
+                            <i class="uil uil-browser services_icon"></i>
+                            <h3 class="services_title">Web Design <br> Coding</h3>
+                        </div>
+                    
+                        <a href="websitegallery.html" class="button button--flex button--small button--link services_button">
+                            View Work<i class="uil uil-arrow-right button_icon"></i></a>  
+                                                             
+                    </div>
+                    <!--==================== SERVICES 2 ====================-->
+                    <div class="services_content">
+                        <div>
+                            <i class="uil uil-camera services_icon"></i>
+                            <h3 class="services_title">Photography</h3>
+                        </div>
+
+                        <a href="gallery.html" class="button button--flex button--small button--link services_button">
+                            View Work
+                            <i class="uil uil-arrow-right button_icon"></i>
+                        </a>            
+                    </div>
+                    <!--==================== SERVICES 3 ====================-->
+                    <div class="services_content">
+                        <div>
+                            <i class="uil uil-film services_icon"></i>
+                            <h3 class="services_title">Video Editing</h3>
+                        </div>
+
+                        <a href="videowork.html" class="button button--flex button--small button--link services_button">
+                            View Work
+                            <i class="uil uil-arrow-right button_icon"></i>
+                        </a>            
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section_title">Contact Me</h2>
+                <span class="section_subtitle">Get in touch</span>
+
+                <div class="contact_container container grid">
+                    <div>
+                        <div class="contact_information">
+                            <i class="uil uil-phone contact_icon"></i>  
+                        
+                            <div>
+                                <h3 class="contact_title">Call Me</h3>
+                                <span class="contact_subtitle">518-570-0568</span>
+                            </div>
+                        </div>
+
+                        <div class="contact_information">
+                            <i class="uil uil-envelope contact_icon"></i>
+
+                            <div>
+                                <h3 class="contact_title">Email</h3>
+                                <span class="contact_subtitle">ytan0601@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact_information">
+                            <i class="uil uil-linkedin-alt contact_icon"></i>
+
+                             <div>
+                                <h3 class="contact_title">Linkedin</h3>
+                                <span class="contact_subtitle">https://www.linkedin.com/in/yurino-tan-7100a1258</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer_bg">
+                <div class="footer_container container grid">
+                    <div>
+                        <h1 class="footer_title">Yurino Tan</h1>
+                        <span class="footer_subtitle">Multimedia Designer</span>
+                    </div>
+
+                    <ul class="footer_links">
+                        <li>
+                            <a href="about.html" class="footer_link">About Me</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="footer_link">Works</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer_link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <p class="footer_copy">@2023 Yurino Tan</p>
+
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        
+
+        <!--==================== SWIPER JS ====================-->
+        <script src=""></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="main.js"></script>
+    </body>
+</html>
