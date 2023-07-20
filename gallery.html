@@ -1,24 +1,63 @@
-<!DOCTYPE html>
-<html lang="en-us">
-    <head>
-        <title>Gallery - Yurino Tan</title>
-        <meta charset="UTF-8" />
-        <link href="style.css" type="text/css" rel="stylesheet" />
-    </head>
-
-    <body>
-        <header>
-            <a href="index.html"><h1>Yurino Tan Portfolio</h1></a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="gallery.html">GALLERY</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <h2 class="pageHeader">GALLERY</h2> 
+       <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+            <!--==================== UNICONS ====================-->
+            <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+            
+            <!--==================== SWIPER CSS ====================-->
+            <link rel="stylesheet" href="">
+            
+            <!--==================== CSS ====================-->
+            <link rel="stylesheet" href="photos.css" type="text/css">
+    
+            <title>Responsive Portfolio Website</title>
+        </head>
+        <body>
+            <!--==================== HEADER ====================-->
+            <header class="header" id="header">
+                <nav class="nav container">
+                    <a href="index2.html" class="nav_logo">Yurino Tan Portfolio</a>
+    
+                    <div class="nav_menu" id="nav-menu">
+                        <ul class="nav_list grid">
+                            <li class="nav_item">
+                                <a href="index2.html" class="nav_link">
+                                    <i class="uil uil-home nav_icon"></i> HOME
+                                </a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="about.html" class="nav_link">
+                                    <i class="uil uil-user nav_icon"></i> ABOUT
+                                </a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="index2.html#works" class="nav_link active-link">
+                                    <i class="uil uil-scenery nav_icon"></i> WORKS
+                                </a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="index2.html#contact" class="nav_link">
+                                    <i class="uil uil-message nav_icon"></i> CONTACT
+                                </a>
+                            </li>
+                        </ul>
+                        <i class="uil uil-times nav_close" id="nav-close"></i>    
+                    </div>
+    
+                    <div class="nav_btns">
+                        <div class="nav_toggle" id="nav-toggle">
+                            <i class="uil uil-apps"></i>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+    
+            <!--==================== MAIN ====================-->
+    <div class="photo_container gird">    
+        <h2 class="section_title">GALLERY</h2> 
 
         <div class="row">
             <div>
@@ -134,55 +173,36 @@
                 class="large"
             />
         </div>
+</div>  
 
-        <div class="video blackbg">
-           <div>
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/KU6nxbtFBbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div> 
-            <div class="LVideoCap">
-                <h3>VIDEO WORK</h3>
-                <p>
-                    Multimedia Storytelling Project- Created a video to enhance people’s awareness of environmental issues by planning, shooting, and interviewing an Environmental Science professor. Utilized Adobe Premiere Pro to edit the raw footage
-                </p>
-            </div>        
-        </div>
-        
 
-        <div class="whitebg">
-            <div class="GraphicCap">
-                <h3>Graphic Design</h3>     
-                <p> 
-                    Graphic design project creating a poster and a book cover utilizing Adobe Illustrator. 
-                </p>
-            </div>  
-            <div></div>
-            <div class="imgRow whitebg">            
-            <img 
-                src="images/bookcover-01.png"
-                alt="Car Photography in Brooklyn on Film"
-                title="Car Photography in Brooklyn on Film"
-                class="medium"
-            />
-            <img 
-                src="images/poster-01.jpg"
-                alt="New York City Photography on Film"
-                title="New York City Photography on Film"
-                class="medium"
-            /> 
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">Yurino Tan</h1>
+                    <span class="footer_subtitle">Multimedia Designer</span>
+                </div>
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="about.html" class="footer_link">About Me</a>
+                    </li>
+                    <li>
+                        <a href="index2.html#works" class="footer_link">Works</a>
+                    </li>
+                    <li>
+                        <a href="index2.html#contact" class="footer_link">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </div>
 
-        <footer>
-            <div class="footerContent">
-                <p>@2023YurinoTan</p>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="gallery.html">GALLERY</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </footer>  
+            <p class="footer_copy">@2023 Yurino Tan</p>
+
+        </div>
+    </footer> 
+     <!--==================== MAIN JS ====================-->
+     <script src="main.js"></script>
     </body>
 </html>
