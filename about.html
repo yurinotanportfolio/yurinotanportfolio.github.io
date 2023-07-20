@@ -1,56 +1,113 @@
 <!DOCTYPE html>
-<html lang="en-us">
+    <html lang="en">
     <head>
-        <title>About - Yurino Tan</title>
-        <meta charset="UTF-8" />
-        <link href="style.css" type="text/css" rel="stylesheet" />
-    </head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="style2.css" type="text/css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
     <body>
-        <header>
-            <a href="index.html"><h1>Yurino Tan Portfolio</h1></a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="gallery.html">GALLERY</a></li>
-                </ul>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index2.html" class="nav_logo">Yurino Tan Portfolio</a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list grid">
+                        <li class="nav_item">
+                            <a href="index2.html" class="nav_link">
+                                <i class="uil uil-home nav_icon"></i> HOME
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="about.html" class="nav_link active-link">
+                                <i class="uil uil-user nav_icon"></i> ABOUT
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="index2.html#works" class="nav_link">
+                                <i class="uil uil-scenery nav_icon"></i> WORKS
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="index2.html#contact" class="nav_link">
+                                <i class="uil uil-message nav_icon"></i> CONTACT
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav_close" id="nav-close"></i>    
+                </div>
+
+                <div class="nav_btns">
+                    <div class="nav_toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
             </nav>
         </header>
-        
-        <h2 class="pageHeader">ABOUT</h2>     
+         <!--==================== MAIN ====================-->
 
-        <div class="aboutpage">
-            <div class="leftCol">
-                <img 
-                    src="images/IMG_3260.jpg"
-                    alt="Photo of me"
-                    title="A photo of me" 
-                    class="leftCol"
+        <section class="about section" id="aboutme">
+            <h2 class="section_title">About Me</h2>
+
+            <div class="about_container container grid">
+                <img    src="images/YurinoGrad-7.JPG"
+                        alt="Photo of me"
+                        title="A photo of me" 
+                        class="profile_img"
                 />
+                <div class="about_data">
+                    <p class="about_description">Responsible and motivated recent graduate ready to apply education in the workplace. Offers excellent technical abilities with software and applications, ability to handle challenging work, and excellent time management skills.
+                        <br>
+                        <br>
+                    Skills: Adobe Photoshop, Adobe Audition, Adobe Premiere Pro, Adobe Illustrator HTML/CSS/JavaScript
+                        <br>
+                        <br>
+                    Language Skills: Japanese (Native), English (Fluent)</p>
+                    <div class="viewresumebtn">            
+                        <a href="/images/Resume - Yurino Tan.pdf" class="button button--flex" onclick="window.open('images/Resume - Yurino Tan.pdf')" target="blank">View Resume</a>
+                    </div>
+                </div>
             </div>
-            <div class="rightCol">
-                <p>Responsible and motivated student ready to apply education in the workplace. Offers excellent technical abilities with software and applications, ability to handle challenging work, and excellent time management skills.</p>
-                <p>Skills: Adobe Photoshop, Adobe Audition, Adobe Premiere Pro, HTML/CSS</p> 
-                <p>Language Skills: Japanese (Native), English (Fluent)</p>
-                <button class="resumebtn" onclick="window.open('images/Resume - Yurino Tan.pdf')">
-                <a href="/images/Resume - Yurino Tan.pdf" target="blank">View Resume</a>
-                
-            </button>
-        </div>
-        </div>    
-                
-        <footer class="fixed">
-            <div class="footerContent">
-                <p>@2023YurinoTan</p>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="gallery.html">GALLERY</a></li>
+        </section>
+  
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer_bg">
+                <div class="footer_container container grid">
+                    <div>
+                        <h1 class="footer_title">Yurino Tan</h1>
+                        <span class="footer_subtitle">Multimedia Designer</span>
+                    </div>
+
+                    <ul class="footer_links">
+                        <li>
+                            <a href="about.html" class="footer_link">About Me</a>
+                        </li>
+                        <li>
+                            <a href="index2.html#works" class="footer_link">Works</a>
+                        </li>
+                        <li>
+                            <a href="index2.html#contact" class="footer_link">Contact</a>
+                        </li>
                     </ul>
-                </nav>
+                </div>
+        
+                <p class="footer_copy">@2023 Yurino Tan</p>
+        
             </div>
-        </footer>    
+        </footer>
+        <!--==================== MAIN JS ====================-->
+        <script src="main.js"></script>
     </body>
 </html>
