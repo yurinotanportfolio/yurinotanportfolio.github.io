@@ -579,7 +579,7 @@ img {
     .about_container,
     .videowork_container{
         column-gap: 5rem;
-        
+        margin-bottom: 100px;
     }
     .mockup_img,
     .profile_img{
@@ -634,5 +634,5 @@ img {
     .container{
         max-width: 1024px;
     }
-    
+
 }
