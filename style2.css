@@ -341,11 +341,14 @@ img {
     width: 200px;
     border-radius: .5rem;    
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
+.Fashionwebsite_Page2{
+    margin-top: 10px;
+}
 .webdesign_container,
 .about_container,
 .videowork_container{
@@ -491,13 +494,18 @@ img {
         order: 1;
         justify-content: center;
     }
-
-    .webdesign_container,
+    
     .about_container,
     .videowork_container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .webdesign_container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .mockup_img,
     .profile_img{
         width: 450px;
@@ -623,4 +631,8 @@ img {
     .services_container{
         grid-template-columns: repeat(3, 400px);
     }
+    .container{
+        max-width: 1024px;
+    }
+    
 }
